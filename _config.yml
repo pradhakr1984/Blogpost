@@ -1,0 +1,21 @@
+title: "Prashant’s Blog"
+email: pradhakr@gmail.com
+description: "A multi-page Jekyll blog about finance, fintech, blockchain, and AI."
+baseurl: "/Blogpost" # the subpath of your site
+url: "https://pradhakr1984.github.io" # the base hostname & protocol for your site
+permalink: /blog/:year/:month/:day/:title/
+
+# Build settings
+theme: null
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      author: Prashant 
