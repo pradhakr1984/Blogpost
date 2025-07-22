@@ -2,7 +2,7 @@
 
 Multi‑page Jekyll blog with:
 
-- **Home** (`/`) — speaks to your interest in **finance + AI + blockchain**
+- **Home** (`/`) —  speaks to your interest in **finance + AI + blockchain**
 - **About** (`/about/`) — includes `Prashant-bio.html` + Prashant-headshot.png
 - **Blog** (`/blog/`) — intro focuses on **finance, fintech, blockchain, AI, and their convergence**, plus 5 sample posts on those themes
 - **Contact** (`/contact/`) — `mailto:` link **and** static form service placeholder
