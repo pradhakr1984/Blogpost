@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #222;
+}
+header {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  padding: 1.5rem 0 1rem 0;
+}
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin: 0;
+  padding: 0;
+}
+.main-nav a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: 0.02em;
+  transition: color 0.2s;
+}
+.main-nav a:hover {
+  color: #0077b6;
+}
+.container {
+  max-width: 800px;
+  margin: 3rem auto 2rem auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+  padding: 3rem 2.5rem;
+}
+.hero {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  letter-spacing: 0.01em;
+}
+.hero-desc {
+  font-size: 1.25rem;
+  color: #444;
+  margin-bottom: 2rem;
+}
+.section-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  letter-spacing: 0.01em;
+}
+.banner {
+  width: 100%;
+  max-height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 2rem 0;
+}
+.about {
+  display: flex;
+  align-items: flex-start;
+  gap: 2.5rem;
+  margin-bottom: 2rem;
+}
+.about-card {
+  background: #f7fafd;
+  border-radius: 14px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+  padding: 2.5rem 2rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 2.5rem;
+  margin-bottom: 2.5rem;
+  flex-wrap: wrap;
+}
+.about-card-enhanced {
+  background: linear-gradient(135deg, #f7fafd 70%, #e3f0ff 100%);
+  border-radius: 18px;
+  border: 1.5px solid #e0e7ef;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 3rem 2.5rem 2.5rem 2.5rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 2.8rem;
+  margin-bottom: 2.5rem;
+  flex-wrap: wrap;
+  position: relative;
+}
+.about-card-enhanced::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  border-radius: 18px;
+  pointer-events: none;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.04);
+}
+.about-headshot-wrap {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 200px;
+  margin-bottom: 1.5rem;
+}
+.about-headshot {
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #e0e7ef;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.07);
+  background: #fff;
+}
+.about-text {
+  flex: 1;
+  min-width: 220px;
+  font-size: 1.13rem;
+  line-height: 1.7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about-name {
+  font-size: 2.1rem;
+  font-weight: 700;
+  margin: 0 0 0.3rem 0;
+  color: #1a2a3a;
+  letter-spacing: 0.01em;
+}
+.about-role {
+  font-size: 1.15rem;
+  color: #0077b6;
+  font-weight: 500;
+  margin-bottom: 1.1rem;
+}
+.about-bio {
+  font-size: 1.13rem;
+  color: #222;
+  line-height: 1.7;
+}
+@media (max-width: 700px) {
+  .about-card {
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 0.7rem;
+  }
+  .about-headshot-wrap {
+    width: 100%;
+    margin-bottom: 1.2rem;
+  }
+  .about-text {
+    text-align: center;
+  }
+  .about-name {
+    font-size: 1.5rem;
+  }
+}
+footer {
+  text-align: center;
+  color: #888;
+  font-size: 1rem;
+  margin: 3rem 0 1.5rem 0;
+}
+.post-list {
+  padding: 0;
+  list-style: none;
+}
+.post-list li {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+.post-list a {
+  color: #0077b6;
+  text-decoration: none;
+  font-weight: 600;
+}
+.post-list a:hover {
+  text-decoration: underline;
+}
+.contact-page {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.contact-page h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.contact-page p {
+  text-align: center;
+  font-size: 1.1rem;
+}
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1.2rem;
+  background: #0077b6;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  margin-right: 0.5rem;
+  transition: background 0.2s;
+}
+.btn.secondary {
+  background: #888;
+}
+.btn:hover {
+  background: #023e8a;
+}
+.contact-form label {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+  font-weight: 500;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.contact-form button {
+  width: 100%;
+  padding: 0.7rem;
+  font-size: 1.1rem;
+} 
