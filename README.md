@@ -32,3 +32,4 @@ After pasting this README into Cursor, run something like:
 
 ## 3. Project Structure
 
+# Force rebuild
